@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir welcome/ welcome/to/ welcome/to/school tr  ' ' < 102-tree | wc
+mkdir welcome/to/school tr -cd ' ' < 102-tree | wc -c
