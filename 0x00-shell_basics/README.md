@@ -4,3 +4,4 @@
 
 2-bring_me_home: This script takes you back to your home directory  
 
+3-listfiles: This script list the content of a folder in a long format
