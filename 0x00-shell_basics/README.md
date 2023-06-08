@@ -33,3 +33,7 @@
 101-clean_emacs: This script deletes every file that ends with ~ character
 
 102-tree: This script creates a tree directories
+
+103-commas: This script list the content of the director and separate them with commas
+
+school.mgc: this script creates a magic file
