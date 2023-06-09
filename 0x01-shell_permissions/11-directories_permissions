@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 752
+chmod --recursive 755
