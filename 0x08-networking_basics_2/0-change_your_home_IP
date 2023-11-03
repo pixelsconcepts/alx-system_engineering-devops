@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#changing the home IP
+cp /etc/hosts ~/hosts.new
+sed -i 's/127.0.0.1 localhost/127.0.0.2 localhost/g' ~/hosts.new
+sed -i 's/157.240.11.35 facebook.com/0.0.0.0 facebook.com/g' ~/hosts.new
+sudo cp -f ~/hosts.new /etc/hosts
