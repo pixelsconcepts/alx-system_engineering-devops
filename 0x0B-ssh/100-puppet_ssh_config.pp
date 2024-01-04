@@ -1,6 +1,6 @@
 # SSH Client configuration with puppet
 
-file { '/home/ubuntu/.ssh/config':
+file { '/etc/ssh/ssh_config':
   ensure  => present,
   content => "
     Host 429998-web-01
