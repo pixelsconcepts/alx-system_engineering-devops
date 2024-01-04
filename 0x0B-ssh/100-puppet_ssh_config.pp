@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
 # SSH Client configuration with puppet
 
-file { '~/.ssh/school':
+file { '/home/ubuntu/.ssh/config':
   ensure  => present,
   content => "
     Host 429998-web-01
